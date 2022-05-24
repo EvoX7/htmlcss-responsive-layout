@@ -61,6 +61,9 @@ body {
   color: white;
 }
 
+.a5 {
+  color: var(--secondary-color);
+}
 img {
   width: 100%;
 }
@@ -121,6 +124,7 @@ img {
   padding: 20px;
   color: rgb(78, 78, 78);
   margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .p-bold {
@@ -376,7 +380,6 @@ img {
 
 .container-section-6 {
   padding-top: 50px;
-  margin-bottom: 50px;
   background-color: var(--secondary-color);
 }
 
@@ -396,13 +399,23 @@ img {
 .p-light {
   padding: 40px;
   color: white;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .fa-circle {
   padding-top: 20px;
   color: white;
   font-size: 5px;
+}
+
+/***************** Footer  ****************/
+
+.footer-container {
+  background-color: rgb(55, 55, 55);
+}
+
+.footer-int {
+  padding: 40px;
 }
 
 /* Tablet resolution */
