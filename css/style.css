@@ -17,7 +17,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
+ 
 }
 
 /* Top banner */
@@ -42,7 +42,7 @@ body {
 
 /*****************  Section 1  ****************/
 .container-section-1 {
-  width: 100%;
+  
   margin: 70px;
 }
 
@@ -78,7 +78,6 @@ img {
   padding: 15px;
   line-height: 30px;
   background-color: var(--cards-color);
-  width: 70%;
   border-radius: 25px;
 }
 
@@ -87,7 +86,6 @@ img {
   margin: 46px;
   line-height: 30px;
   background-color: white;
-  width: 80%;
   border-radius: 60px;
 }
 
@@ -139,7 +137,6 @@ img {
   padding: 15px;
   line-height: 30px;
   background-color: var(--cards-color);
-  width: 70%;
   border-radius: 25px;
 }
 
@@ -421,14 +418,33 @@ img {
 /* Tablet resolution */
 @media all and (min-width: 768px) {
   .container-section-1 {
-  }
-
-  .short-1 {
+   
+   
   }
 
   .long-cards-container {
+    
+    
+
   }
+
+ .short-card-container {
+    
+    
+   
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Desktop resolution */
 @media all and (min-width: 992px) {
